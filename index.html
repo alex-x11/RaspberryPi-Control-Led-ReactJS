@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Control LED on RaspberryPi / ReactJS</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<style>
+
+			@media all and (max-width:990px) and (min-width:320px) {
+				.boxButton{
+					opacity:1;
+					width:100% !important;
+					height:200px;
+					font-size:40px;
+				}
+			}
+
+			.boxButton{
+				opacity:1;
+				width:200px;
+				height:200px;
+			}
+
+			.boxButton.disabled{
+				opacity:0.3;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12" id="app"></div>
+			</div>
+
+		</div>
+		<script src="dist/bundle.js"></script>		
+	</body>
+</html>
